@@ -1,0 +1,13 @@
+title: Home
+templateScript: /gatsby/webresources/index.html
+renderType: headless
+parameters:
+  restEndpoint: website
+visible: true
+dialog: gatsby:pages/home
+areas:
+  content:
+    title: Content
+    availableComponents:
+      article:
+        id: gatsby:areas/article

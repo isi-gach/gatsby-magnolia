@@ -1,0 +1,30 @@
+form:
+  label: Home
+  tabs:
+    - name: tabMain
+      label: Home
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: title
+    - name: tabMeta
+      label: Meta Data
+      fields:
+        - name: keywords
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: keywords
+          rows: 3
+        - name: description
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: description
+          rows: 5
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Save
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Cancel

@@ -1,0 +1,21 @@
+.contentArea {
+  padding-top: 2rem;
+}
+
+.contentArea > div,
+.contentArea > picture,
+.contentArea > section {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contentArea {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .contentArea > div,
+  .contentArea > picture,
+  .contentArea > section {
+    margin-bottom: 4rem;
+  }
+}

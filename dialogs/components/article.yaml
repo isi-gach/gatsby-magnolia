@@ -1,0 +1,28 @@
+    form:
+      label: Article
+      tabs:
+        - name: tabMain
+          label: Main
+          fields:
+            - name: title
+              fieldType: text
+              label: Title
+            - name: image
+              fieldType: text
+              label: Image
+              fieldType: text
+            - name: link
+              fieldType: text
+              label: Link
+              fieldType: text
+            - name: text
+              fieldType: text
+              label: Text
+              fieldType: text
+              rows: 3
+
+    actions:
+      commit:
+        class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+      cancel:
+        class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

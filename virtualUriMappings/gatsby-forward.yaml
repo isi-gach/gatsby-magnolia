@@ -1,0 +1,3 @@
+class: info.magnolia.virtualuri.mapping.DefaultVirtualUriMapping
+fromUri: /.resources/gatsby/webresources/
+toUri: forward:/.resources/gatsby/webresources/index.html

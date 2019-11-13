@@ -1,0 +1,9 @@
+title: Article Area
+dialog: gatsby:areas/article
+
+areas:
+  articles:
+    title: Articles
+    availableComponents:
+      article:
+        id: gatsby:components/article
