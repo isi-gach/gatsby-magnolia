@@ -7,10 +7,6 @@
             - name: title
               fieldType: text
               label: Title
-            - name: image
-              fieldType: text
-              label: Image
-              fieldType: text
             - name: link
               fieldType: text
               label: Link

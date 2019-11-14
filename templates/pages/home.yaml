@@ -10,4 +10,4 @@ areas:
     title: Content
     availableComponents:
       article:
-        id: gatsby:areas/article
+        id: gatsby:components/article

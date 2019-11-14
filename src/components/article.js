@@ -1,7 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from "react";
-import { Area } from "react-magnolia";
-import Title from "./title";
 import styles from "./article.module.css";
 
 const ArticleItem = props => {
@@ -20,15 +18,4 @@ const ArticleItem = props => {
   );
 };
 
-const ArticleArea = props => {
-  const { articles, title } = props;
-
-  return (
-    <section className={styles.root}>
-      <Title content={title} />
-      {articles && <Area {...articles} className={styles.container} />}
-    </section>
-  );
-};
-
-export { ArticleArea, ArticleItem };
+export default ArticleItem;
